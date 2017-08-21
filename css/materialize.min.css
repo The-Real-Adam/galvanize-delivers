@@ -2174,7 +2174,9 @@ html {
 }
 
 body {
-  margin: 0
+  margin: 0;
+  background-image: url("img/stripes.jpg");
+  background-color: #e4e4e4;
 }
 
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
@@ -2677,7 +2679,7 @@ ul.staggered-list li {
 footer.page-footer {
   margin-top: 20px;
   padding-top: 20px;
-  background-color: #99ffff;
+  background-color: #656565;
 }
 
 footer.page-footer .footer-copyright {
@@ -3780,7 +3782,7 @@ nav ul a span.badge {
 
 nav {
   color: #fff;
-  background-color: #0000ff;
+  background-color: #656565;
   width: 100%;
   height: 56px;
   line-height: 56px
@@ -4572,7 +4574,7 @@ small {
 .btn, .btn-large {
   text-decoration: none;
   color: #fff;
-  background-color: #26a69a;
+  background-color: #e28c05;
   text-align: center;
   letter-spacing: .5px;
   transition: .2s ease-out;

@@ -30,90 +30,45 @@
 
   <!-- menu -->
   <div class="container">
-    <div class="row">
-      <div class="s12 m4">
-        <h3>Menu</h3>
-        <!-- Burger -->
-        <div class="col s12 m4">
-
-          <div class="card">
-            <div class="card-image waves-effect waves-block waves-light">
-              <img class="activator" src="img/burger.jpg">
-            </div>
-            <div class="card-content">
-              <span class="card-title activator grey-text text-darken-4">Royal Burger</span>
-              <div class="price">$12.99</div>
-              <p><a class="btn">Add to Cart</a></p>
-            </div>
-            <div class="card-reveal">
-              <span class="card-title grey-text text-darken-4">Royal Burger<i class="material-icons right">close</i></span>
-              <p>Here is some more information about this product that is only revealed once clicked on.</p>
-            </div>
-          </div>
-
-        </div>
-      </div>
-
-      <!-- Pizza -->
-      <div class="col s12 m4">
-
-        <div class="card">
-          <div class="card-image waves-effect waves-block waves-light">
-            <img class="activator" src="img/pizza.jpg">
-          </div>
-          <div class="card-content">
-            <span class="card-title activator grey-text text-darken-4">Arugula Pie</span>
-            <div class="price">$17.99</div>
-            <p><a class="btn">Add to Cart</a></p>
-          </div>
-          <div class="card-reveal">
-            <span class="card-title grey-text text-darken-4">Arugula Pie<i class="material-icons right">close</i></span>
-            <p>Here is some more information about this product that is only revealed once clicked on.</p>
-          </div>
-        </div>
-
-      </div>
-    </div>
-
-
-    <!-- Ribs -->
-    <div class="s12 m4">
-      <h3 style="color:white">Menu</h3>
-
+    <div class="row ">
       <div class="row">
-        <div class="col s12 m4">
+        <div class="s12 m4">
+          <h3>Menu</h3>
+          <!-- Burger -->
+          <div class="col s12 m4">
 
-          <div class="card">
-            <div class="card-image waves-effect waves-block waves-light">
-              <img class="activator" src="img/ribs.jpg">
+            <div class="card">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="img/burger.jpg">
+              </div>
+              <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">Royal Burger</span>
+                <div class="price">$12.99</div>
+                <p><a class="btn">Add to Cart</a></p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">Royal Burger<i class="material-icons right">close</i></span>
+                <p>Here is some more information about this product that is only revealed once clicked on.</p>
+              </div>
             </div>
-            <div class="card-content">
-              <span class="card-title activator grey-text text-darken-4 ">Smoked Swine</span>
-              <div class="price">$14.99</div>
-              <p><a class="btn">Add to Cart</a></p>
-            </div>
-            <div class="card-reveal">
-              <span class="card-title grey-text text-darken-4 card-title">Smoked Swine<i class="material-icons right">close</i></span>
-              <p>Here is some more information about this product that is only revealed once clicked on.</p>
-            </div>
+
           </div>
-
         </div>
 
-        <!-- ice cream -->
+        <!-- Pizza -->
         <div class="col s12 m4">
 
           <div class="card">
             <div class="card-image waves-effect waves-block waves-light">
-              <img class="activator" src="img/ice_cream.jpg">
+              <img class="activator" src="img/pizza.jpg">
             </div>
             <div class="card-content">
-              <span class="card-title activator grey-text text-darken-4">Ice Cream</span>
-              <div class="price">$9.99</div>
+              <span class="card-title activator grey-text text-darken-4">Arugula Pie</span>
+              <div class="price">$17.99</div>
               <p><a class="btn">Add to Cart</a></p>
             </div>
             <div class="card-reveal">
-              <span class="card-title grey-text text-darken-4">Ice Cream<i class="material-icons right">close</i></span>
+              <span class="card-title grey-text text-darken-4">Arugula Pie<i class="material-icons right">close</i></span>
               <p>Here is some more information about this product that is only revealed once clicked on.</p>
             </div>
           </div>
@@ -121,65 +76,106 @@
         </div>
       </div>
 
-    </div>
 
+      <!-- Ribs -->
+      <div class="s12 m4">
 
+        <div class="row">
+          <div class="col s12 m4">
 
-    <div class="col s12 m4">
-      <h3>Order</h3>
-      <table class="highlight" id="orders">
-        <thead>
-          <tr>
-            <td>Item Name</td>
-            <td>Item Quantity</td>
-            <td>Item Price</td>
-          </tr>
-        </thead>
-        <tbody>
-          <!-- cart items appended here -->
+            <div class="card">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="img/ribs.jpg">
+              </div>
+              <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4 ">Smoked Swine</span>
+                <div class="price">$14.99</div>
+                <p><a class="btn">Add to Cart</a></p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4 card-title">Smoked Swine<i class="material-icons right">close</i></span>
+                <p>Here is some more information about this product that is only revealed once clicked on.</p>
+              </div>
+            </div>
 
-        </tbody>
-        <tfoot>
-          <tr>
-            <td>Subtotal:
-              <div id="subtotal"></div>
-            </td>
-            <td>Tax:
-              <div id="tax"></div>
-            </td>
-            <td>Total:
-              <div id="total"></div>
-            </td>
-          </tr>
-        </tfoot>
-      </table>
+          </div>
 
-      <form class="" action="order.html" method="post">
-        <div class="input-field">
-          <i class="material-icons prefix pink-text accent-2 active">account_circle</i>
-          <input id="name" type="text" class="validate" placeholder="REQUIRED" required="">
-          <label for="name" class="active">Name</label>
+          <!-- ice cream -->
+          <div class="col s12 m4">
+
+            <div class="card">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="img/ice_cream.jpg">
+              </div>
+              <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">Ice Cream</span>
+                <div class="price">$9.99</div>
+                <p><a class="btn">Add to Cart</a></p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">Ice Cream<i class="material-icons right">close</i></span>
+                <p>Here is some more information about this product that is only revealed once clicked on.</p>
+              </div>
+            </div>
+
+          </div>
         </div>
-        <div class="input-field">
-          <i class="material-icons prefix pink-text accent-2 active">phone</i>
-          <input id="phone" type="tel" class="validate" placeholder="REQUIRED" required="">
-          <label for="phone" class="active">Phone</label>
-        </div>
-        <div class="input-field">
-          <i class="material-icons prefix pink-text accent-2 active">business</i>
-          <input id="address" type="text" class="validate" placeholder="REQUIRED" required="">
-          <label for="address" class="active">Address</label>
-        </div>
-        <a href="order.html" class="btn">PLACE ORDER</a>
-      </form>
 
+      </div>
+
+
+ <!-- Checkout list -->
+      <div class="col s12 m4">
+        <h3>Order</h3>
+        <table class="highlight" id="orders">
+          <thead>
+            <tr>
+              <td>Item Name</td>
+              <td>Item Quantity</td>
+              <td>Item Price</td>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- cart items appended here -->
+
+          </tbody>
+          <tfoot>
+            <tr>
+              <td>Subtotal:
+                <div id="subtotal"></div>
+              </td>
+              <td>Tax:
+                <div id="tax"></div>
+              </td>
+              <td>Total:
+                <div id="total"></div>
+              </td>
+            </tr>
+          </tfoot>
+        </table>
+
+        <form class="" action="order.html" method="post">
+          <div class="input-field">
+            <i class="material-icons prefix pink-text accent-2 active">account_circle</i>
+            <input id="name" type="text" class="validate" placeholder="REQUIRED" required="">
+            <label for="name" class="active">Name</label>
+          </div>
+          <div class="input-field">
+            <i class="material-icons prefix pink-text accent-2 active">phone</i>
+            <input id="phone" type="tel" class="validate" placeholder="REQUIRED" required="">
+            <label for="phone" class="active">Phone</label>
+          </div>
+          <div class="input-field">
+            <i class="material-icons prefix pink-text accent-2 active">business</i>
+            <input id="address" type="text" class="validate" placeholder="REQUIRED" required="">
+            <label for="address" class="active">Address</label>
+          </div>
+          <a href="order.html" class="btn">PLACE ORDER</a>
+        </form>
+
+      </div>
     </div>
   </div>
-
-
-
-
-
 
   <footer class="page-footer">
     <div class="container">
